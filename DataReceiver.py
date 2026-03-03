@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Header, HTTPException, Depends, Request
 from pydantic import BaseModel
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 from jose import JWTError, jwt
 import os
 import json
@@ -10,7 +9,6 @@ import boto3
 import csv
 from io import StringIO
 
-load_dotenv()
 # ======================================================
 
 # APP INIT
