@@ -228,7 +228,7 @@ The API will start on `http://0.0.0.0:5000`
 ```
 SnowflakeToAPIDataPush/
 ├── DataReceiver.py          # Main FastAPI application
-├── DataSender.py            # S3 data fetching utility
+├── DataReceiver.py          # S3 data fetching utility
 ├── requirements.txt         # Python dependencies
 ├── .env                     # Environment variables (not in repo)
 ├── .gitignore              # Git ignore file
